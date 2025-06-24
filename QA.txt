@@ -1,0 +1,800 @@
+General HCUP Questions
+What is HCUP?
+
+The Healthcare Cost and Utilization Project (called "H-CUP") is a family of healthcare databases, software tools, and products developed through a Federal-State-Industry partnership and sponsored by the Agency for Healthcare Research and Quality (AHRQ). HCUP databases bring together the data collection efforts of State data organizations, hospital associations, private data organizations, and the Federal government to create a national information resource of encounter-level healthcare data.
+
+HCUP includes the largest collection of longitudinal hospital care data in the United States, with all-payer, encounter-level information beginning in 1988. HCUP is derived from administrative data originally collected for billing purposes. These databases enable research on a broad range of health policy issues, including cost and quality of health services, medical practice patterns, access to healthcare programs, and outcomes of treatments at the national, State, and local market levels.
+
+HCUP also offers free research tools for health services researchers and decision makers using HCUP and other similar administrative databases. The HCUP Software Tools can be applied to HCUP and other administrative databases to create new data elements from existing data, thereby enhancing a researcher's ability to conduct analyses. The HCUP Supplemental Files are available for use with the HCUP databases to enhance a researcher's ability to conduct analyses. These files are not applicable to other administrative databases.
+
+HCUP also offers free online query tools. HCUPnet is an online query system that provides immediate access to statistics on hospital inpatient, emergency department, costs, and readmissions. HCUP Fast Stats is an online query tool that uses visual displays to compare national- or State-level statistics on a range of healthcare topics. These visual displays include stand-alone graphs, trend figures, or simple tables to convey complex information at a glance.
+
+HCUP offers a variety of online reports, including HCUP Statistical Briefs which present simple, descriptive statistics on a variety of specific topics.
+
+For additional information, please visit the Overview of HCUP page and take the Online HCUP Overview Course.
+
+
+What types of healthcare settings are captured in HCUP data?
+
+The HCUP databases are built from hospital administrative data (i.e., hospital billing records). The databases cover hospital inpatient care, outpatient emergency department care, and ambulatory surgery and other outpatient services from hospital-owned facilities. Some State Ambulatory Surgery and Services Databases (SASD) include ambulatory surgery and services data from facilities not owned by a hospital. HCUP does not include services provided in physician offices, and does not contain complete or reliable pharmacy, laboratory, pathology, or radiology information.
+
+
+Under the Health Insurance Portability and Accountability Act (HIPAA) Privacy Rule, how are the HCUP databases defined?
+
+The HCUP databases are consistent with the definition of limited data sets under the HIPAA Privacy Rule and contain no direct patient identifiers. HCUP Data Use Agreement (DUA) training and a signed DUA are required to purchase and/or use the HCUP databases.
+
+
+What is HCUP's unit of analysis?
+
+The unit of analysis in the HCUP databases is the discharge record for a hospital encounter, not individual patients. This means that a person who is admitted to the hospital multiple times in one year will have a record for each encounter at the hospital.
+
+
+How can I keep informed about HCUP activities and product releases?
+
+Sign up for the HCUP Mailing List to receive emailed information about database releases, tools, and other HCUP product news. Recent releases are also noted on the HCUP-US homepage in the What's New section.
+Return to Contents
+ 
+Nationwide Databases
+What are HCUP's nationwide databases?
+
+HCUP's nationwide databases provide estimates for hospital stays, emergency department visits, or major ambulatory surgery encounters across the United States. Consisting of the NIS, KID, NASS, NRD, and NEDS, the nationwide databases are built from the HCUP State Databases. The databases contain information on all discharges or encounters, regardless of expected payers. They can be used to create national estimates of healthcare utilization, access, charges, quality, and outcomes. The HCUP nationwide databases are available for purchase through the HCUP Central Distributor. Statistics from select databases are available on HCUPnet.
+
+
+Do I need to weight my nationwide database data?
+
+Yes, HCUP's nationwide databases need to be weighted to produce national estimates. HCUP's free online tutorial called Producing National HCUP Estimates provides instruction on the process.
+
+Please note that if you are using HCUPnet (HCUP's free, online query system), the weighting already has been applied—the statistics produced are national estimates.
+
+
+When are the nationwide databases generally released, and what years of data are available?
+
+The NIS, NASS, NEDS and NRD, are released annually, approximately 18 to 22 months following the end of a calendar year. Data years begin with 1988 for the NIS, 2016 for the NASS, 2006 for the NEDS, and 2010 for the NRD.
+
+The KID is released every 3 years, approximately 18 months following the end of a calendar year. Data years begin with 1997 and run through 2012. The KID resumed release in 2016.
+
+Complete database availability and pricing information is provided in the online HCUP Central Distributor Database Catalog.
+
+
+How much do the nationwide databases cost?
+
+Complete database availability and pricing information is included in the online HCUP Central Distributor Database Catalog. Cost varies by year of data. Student pricing is available.
+
+
+Can I perform State-level analyses with the nationwide databases?
+
+The sampling methodology used to create the HCUP databases do not include State as a stratifier; therefore, analysts cannot use the databases to generate State-level estimates. Although the HCUP nationwide databases includes weights to allow researchers to generate national estimates from the raw counts, no weights are included for the calculation of State-level estimates.
+
+For information on State-specific inpatient stays, we recommend that you work with the HCUP SID, SASD, or SEDD.
+
+
+Can the nationwide databases be linked together?
+
+No. Users are unable to link records across the nationwide databases.
+
+
+Are readmission analyses possible in the nationwide databases?
+
+Readmission analyses are possible in only one nationwide database – the Nationwide Readmissions Database (NRD). For additional information, refer to the NRD-specific section of the FAQs.
+
+
+Is it possible to obtain information on intensive care unit (ICU) services in the nationwide databases?
+
+HCUP's nationwide databases do not contain ICU information. Information on ICU services is generally available via revenue codes, which HCUP's nationwide databases do not contain. However, some of the HCUP State databases do contain this information (HCUP data elements REVCDn or REVCODE). Information on the time in the ICU can be identified by units associated with the revenue codes (HCUP data elements UNITn or UNITS).
+
+
+What resources are available to validate my estimates from the nationwide databases?
+
+There are several resources available to validate your estimates from the nationwide databases. These include:
+HCUP Summary Statistics: These include means on all numeric data elements, frequency distributions, and univariates on continuous variables. Summary statistics are provided by year and for each database-specific file. For the Core File (or for the NASS, Encounter File), both unweighted and weighted summary statistics are provided. To access the summary statistics for a particular year of a HCUP database, select the database from the Database Information page on the HCUP-US website, and navigate to the "Data Elements"" section of the Database Documentation page.
+HCUP Diagnosis and Procedure Frequency Tables: These tables include frequency distributions for ICD-9-CM and ICD-10-CM/PCS codes (individually and by grouped by clinical category including the Clinical Classification Software [CCS] for ICD-9-CM, Clinical Classifications Software Refined [CCSR] for ICD-10-CM/PCS, and diagnosis-related group [DRG]). For the NASS, frequency distributions are available by Clinical Classifications Software (CCS) for Services and Procedures category. To access these tables, select the database from the Database Information page on the HCUP-US website, and navigate to the "Data Elements" section of the Database Documentation page.
+HCUPnet: An online query system through which users can generate statistics and information on inpatient and emergency department care as well as population-based healthcare in counties. For the nationwide databases, national statistics are provided overall as well as by certain diagnosis and procedure classifications and for certain patient and hospital characteristics. At this time, statistics are not available in the ambulatory surgery setting.
+
+
+What are some best practices when working with the nationwide databases?
+
+To ensure researchers' appropriate use of the nationwide databases, AHRQ has released a checklist for working with the NIS, KID, NASS, NEDS, and NRD. The checklists are available for download on the respective nationwide databases' documentation page on the HCUP-US website. The checklists help researchers, manuscript peer reviewers, and journal editors understand database design, strengths and limitations, and how they may have changed over time. The checklist provides a step-by-step guide detailing key elements to consider when evaluating studies using the HCUP nationwide databases.
+
+Additionally, the checklist refers to information resources covering four key topics:
+Data use and acknowledgements
+Research design
+Data analysis
+Transition from ICD-9-CM to ICD-10-CM/PCS.
+The checklist was derived from the JAMA article titled Adherence to Methodological Standards in Research Using the National Inpatient Sample Exit Disclaimer by Khera and colleagues.
+Return to Contents
+ 
+National Inpatient Sample (NIS)
+What is the National Inpatient Sample (NIS)?
+
+The National Inpatient Sample (NIS) is the largest publicly available all-payer inpatient care database in the United States, yielding national estimates of hospital inpatient stays. The NIS is a database of hospital inpatient stays derived from billing data submitted by hospitals to statewide data organizations across the U.S. These inpatient data include clinical and resource use information typically available from discharge abstracts. The NIS is sampled from the State Inpatient Databases (SID), which include all inpatient data that are currently contributed to HCUP. The NIS is available starting in data year 1988.
+
+Additional information on the NIS, including a description of data elements and summary statistics, can be found on the NIS Database Documentation page. The database can be purchased through the HCUP Central Distributor, and statistics from the NIS are available on HCUPnet.
+
+
+Can I perform multi-year or trend analysis using the NIS?
+
+Yes, because the NIS spans more than 20 years of data, it is a good tool for longitudinal analysis. However, the NIS has undergone various changes over time, including changes to the sampling and weighting strategies used. The NIS was significantly redesigned for database year 2012. For trend analysis spanning 2012 and earlier years, revised discharge weights should be used to make estimates comparable to the new 2012 NIS design.
+
+To perform multi-year or trends analysis using the NIS, AHRQ developed discharge trend weights for the 1993-2011 NIS, specifically the NIS Trend Weight Files. These weights were calculated in the same way that weights were calculated for the redesigned 2012 NIS and are designed to be used instead of the original NIS discharge weights for trend analyses.
+
+For trend analyses spanning 2012 and earlier NIS data, trend weights should be used prior to 2012 data to make estimates comparable to the new 2012 NIS design. Use the trend weight (TRENDWT) in place of the original discharge weight (DISCWT) to create national estimates for trend analysis. For 2012 or later data, no trend weight is necessary and the discharge weight supplied on the NIS files can be used. The trend weights are available for download as ASCII files along with SAS®, Stata®, and SPSS® load programs from the HCUP-US website.
+
+These revised 1993-2011 trend weights replace the earlier NIS trend weights that were developed for the 1988-1997 NIS following the 1998 NIS redesign. The report Using the HCUP National Inpatient Sample to Estimate Trends (PDF file, 1.0 MB) is available as a Methods Series report and includes recommendations for trend analysis.
+
+
+Is it possible to track readmissions in the NIS?
+
+You cannot track readmissions using the NIS; however this can be done using the HCUP Nationwide Readmissions Database (NRD), which is a unique and powerful database designed to support various types of analyses of national readmission rates for all patients regardless of the expected payer for the hospital stay. For additional information, refer to the NRD section of the HCUP FAQs.
+
+
+Can I perform State-level analyses with the NIS?
+
+The sampling methodology used to create the NIS does not include State as a stratifier; therefore analysts cannot use the database to generate State-level estimates. Although the NIS includes weights to allow researchers to generate national estimates from the raw counts, no weights are included for the calculation of State-level estimates.
+
+For information on State-specific inpatient stays, we recommend that you work with the HCUP SID.
+Return to Contents
+ 
+Kids' Inpatient Database (KID)
+What is the Kids' Inpatient Database (KID)?
+
+The KID is the largest publicly available all-payer pediatric inpatient care database in the United States, yielding national estimates of hospital inpatient stays for patients younger than 21 years of age. Unweighted, it contains data from approximately three million pediatric discharges each year that can be weighted to make national estimates for pediatric care. Weighted, it estimates approximately six million hospital stays for children. The KID is built from a sample of pediatric discharges from the SID.
+
+The KID was released every three years from 1997 through 2012 and resumed release again in 2016.
+
+Although the KID is released every 3 years, the data include discharges for the single calendar year (January to December). The KID's large sample size enables analyses of common as well as rare conditions, such as congenital anomalies, and uncommon treatments, such as organ transplantation. The KID includes charge information on all patients, regardless of expected payer.
+
+Additional information on the KID, including a description of data elements and summary statistics, can be found on the KID Database Documentation page. The database can be purchased through the HCUP Central Distributor, and statistics from the KID are available on HCUPnet.
+How is the KID different from the NIS?
+The KID is based on a stratified, random sample of pediatric discharges (patients younger than 21 years of age) from the SID. Ten percent of normal newborns (uncomplicated births) and 80 percent of other pediatric discharges (age 20 years or younger at admission) from 4,000 U.S. community hospitals (defined as short-term, non-Federal, general and specialty hospitals, excluding hospital units of other institutions), excluding rehabilitation hospitals. A large sample size enables analyses of rare conditions (e.g., congenital anomalies) as well as uncommon treatments (e.g., cardiac surgery).
+
+The NIS does not oversample complicated newborns and other (nonnewborn) pediatric discharges. The NIS, beginning data year 2012, is a sample of discharges of all ages from all hospitals participating in HCUP. The NIS was redesigned in 2012 to improve national estimates; the previous NIS contained all discharge records from a sample of hospitals participating in HCUP.
+
+Return to Contents
+ 
+Nationwide Ambulatory Surgery Sample (NASS)
+What is the Nationwide Ambulatory Surgery Sample (NASS)?
+The Nationwide Ambulatory Surgery Sample (NASS) is a calendar-year, encounter-level database of selected therapeutic ambulatory surgeries constructed from the Healthcare Cost and Utilization Project (HCUP) State Ambulatory Surgery and Services Databases (SASD).
+
+The ambulatory surgeries selected for inclusion in the NASS are therapeutic procedures which require the use of an operating room, penetrate or break the skin, and involve regional anesthesia, general anesthesia, or sedation to control pain. Procedures intended primarily for diagnostic purposes are excluded. To be considered in-scope for the NASS, ambulatory surgeries are also required to have a relatively high annual volume or aggregate total facility charge. Examples include ambulatory surgeries such as cataract surgery, cholecystectomy, appendectomy, gastric bypass, hysterectomy, hernia repair, spinal fusion, and hip replacement.
+
+Additional information on the NASS, including a description of data elements and summary statistics, can be found on the NASS Database Documentation page. The database can be purchased through the HCUP Central Distributor.
+
+What facilities are included in the NASS?
+The NASS is restricted to hospital-owned facilities in the HCUP State Ambulatory Surgery and Services Databases (SASD) that perform in-scope ambulatory surgeries. The designation of a facility as hospital-owned is specific to its financial relationship with a hospital that provides inpatient care and is not related to its physical location. Hospital-owned ambulatory surgery and other outpatient care facilities may be contained within the hospital, physically attached to the hospital, or located in a different geographic area. In addition to restricting attention to hospital-owned facilities, facility selection criteria for the NASS are (1) community nonrehabilitation hospital type and (2) a service type of either general acute care or children's through data year 2018. Beginning data year 2019, the NASS includes specialty hospitals such as surgical, cancer, heart, and orthopedic facilities owned by community hospitals that performed in-scope ambulatory surgeries. Additional restrictions imposed for the NASS sampling frame are that the hospital (1) have no gross irregularities in quarterly reporting volume, (2) submit data to the SASD in all four quarters of the data year, and (3) not have an unusually low volume of encounters containing an in-scope ambulatory surgery.
+
+The HCUP SASD contain a number of hospital-owned facilities performing in-scope ambulatory surgeries that are not inpatient hospitals. In the NASS, these facilities are assigned the identifier of the hospital owner. Stratification, sampling, weighting, and reporting are performed using the hospital owner identifier and hospital characteristics.
+
+Additional information about the NASS sampling frame can be found in the Introduction the NASS document on the NASS Database Documentation page.
+
+Are ambulatory surgery centers (ASCs) included in the NASS?
+The NASS is limited to in-scope ambulatory surgeries in hospital-owned facilities. As such, ambulatory surgery centers (ASCs) that are not owned by a hospital are not captured in the NASS.
+
+What procedures are included in the NASS?
+The NASS is limited to encounters with at least one in-scope ambulatory surgery on the record, performed at hospital-owned facilities. In-scope ambulatory surgeries are defined as therapeutic procedures that require the use of an operating room, penetrate or break the skin, and involve regional anesthesia, general anesthesia, or sedation to control pain. These surgeries are identified by CPT-coded procedures on the billing record, and are categorized as narrow in the HCUP Surgery Flag Software. They also belong to a subset of Clinical Classifications Software (CCS) for Services and Procedures procedure groups with a relatively high volume or aggregate total facility charge, and evidence of reliable reporting from SASD hospitals. For additional information, see the Introduction to the NASS document on the NASS Database Documentation page.
+
+Note that although encounters are limited to those with at least one in-scope ambulatory surgery on the record, the NASS Supplemental File provides information on other surgical and nonsurgical procedures performed during these encounters.
+
+Can I use the NASS for longitudinal analysis?
+The NASS can be used for longitudinal analysis. However, users should be aware of changes that have occurred to the NASS design over time. First, procedures considered in-scope can change from year to year. Second, the 2016-2018 NASS undercounted certain emergent surgeries. Last, the NASS universe was modified to include specialty hospitals in data year 2019. Additional information on these changes is available in Section 4.8 of the NASS Introduction.
+
+Are all procedure codes included in the NASS?
+The NASS includes only CPT codes (Healthcare Common Procedure Coding System (HCPCS) Level I codes). HCPCS Level II codes are excluded. Procedures that are exclusively or predominantly reported on facility records using HCPCS Level II codes will be underreported in the NASS. For this reason, CCS 45, Percutaneous Transluminal Coronary Angioplasty (PTCA) was removed from the NASS beginning in 2018.
+
+Would it be possible to see a list of CPT procedure codes that are included in the NASS?
+Our license agreement with the American Medical Association (AMA) for using CPT codes also does not allow us to distribute lists of individually identified CPT codes. To obtain the definition of individual codes, it may be necessary to license the CPT codes and obtain a CPT Codebook from the AMAor work with a medical records coder.
+
+However, the in-scope ambulatory surgeries defined as selected invasive, therapeutic surgical CPT-coded procedures also belong to a subset of CCS-Services and Procedures procedure categories. For a detailed list of in-scope CCS procedure categories, see the Introduction to the NASS on the NASS Database Documentation page. You can then find the array of CPT and/or HCPCS Level II codes used to assign CCS-Services and Procedures categories on the CCS-Services and Procedures page of HCUP-US website.
+
+Does the NASS include information on ambulatory surgery charges and costs?
+
+The NASS includes the data element TOTCHG, which provides the total charges for the entire ambulatory surgery encounter. The total charge is not attributable to a single procedure. Information on the charge for a specific procedure cannot be determined. A Cost-to-Charge Ratio (CCR) File is not available for the NASS. As a result, total charges for ambulatory surgery encounters in the NASS cannot be converted to total facility costs.
+
+
+Return to Contents
+ 
+Nationwide Emergency Department Sample (NEDS)
+What is the Nationwide Emergency Department Sample (NEDS)?
+The NEDS is the largest publicly available all-payer emergency department (ED) database in the United States, yielding national estimates of ED visits. Unweighted, the NEDS contains approximately 30 million records each year from about 1,000 hospital-owned EDs. Weighted, it estimates over 125 million ED visits. The NEDS approximates a 20 percent stratified sample of U.S. hospital-owned EDs. It is constructed using records from (1) the HCUP State Emergency Department Databases (SEDD), which capture information on ED visits that do not result in an admission (i.e., treat-and-release visits and transfers to another hospital), and (2) the SID, which contain information on patients initially seen in the ED and then admitted to the same hospital. The NEDS includes ED charge information for approximately 96 percent of all U.S. ED visits, regardless of expected payer.
+
+Additional information on the NEDS, including a description of data elements and summary statistics, can be found on the NEDS Database Documentation page. The database can be purchased through the HCUP Central Distributor, and statistics from the database are available on HCUPnet.
+
+Does the NEDS contain ICD-9-CM/ICD-10-CM/PCS procedure codes or CPT codes?
+The NEDS contains both types of procedure codes; however, the type of code(s) depends on the State, year, and the type of ED visit. For ED visits that do not result in hospitalization, procedures may be reported as both ICD-9-CM and CPT, Fourth Edition (CPT-4) procedure codes through data year 2014. Beginning data year 2015, procedures are reported as CPT codes only. These procedures are found in the NEDS Supplemental ED File.
+
+For ED visits resulting in hospitalization to the same hospital, procedures are coded as ICD-9-CM codes through quarter 3 of data year 2015 (ending September 2015) and ICD-10-PCS codes beginning in quarter 4 of data year 2015 (beginning October 2015). These procedures are found in the NEDS Supplemental Inpatient File
+
+How do I differentiate between the two types of ED visits in the NEDS?
+The NEDS data element, HCUPFILE, can be used to differentiate between ED visits that do not result in an admission to the same hospital (HCUPFILE=SEDD) and ED visits that result in admission to the same hospital (HCUPFILE=SID).
+
+Does the NEDS include information on ED charges and costs?
+The NEDS includes two data elements with information on total charges – TOTCHG_ED, which provides the total charge of ED services, and TOTCHG_IP, which provides the total charge for ED and inpatient services [ED admissions].
+
+A Cost-to-Charge Ratio (CCR) File is available for the NEDS beginning data year 2012. Additional information is available at https://www.hcup-us.ahrq.gov/db/ccr/ed-ccr/ed-ccr.jsp.
+
+Return to Contents
+ 
+National Readmissions Database (NRD)
+What is the Nationwide Readmissions Database (NRD)?
+
+The NRD is the largest publicly available all-payer readmissions database in the United States that can be used to examine national estimates of readmissions. Unweighted, it contains approximately 18 million discharges each year. Weighted, it estimates approximately 35 million discharges. The NRD is drawn from SID containing verified patient linkage numbers that can be used to track a person across hospitals within a State.
+
+Additional information on the NRD, including a description of data elements and summary statistics, can be found on the NRD Database Documentation page. The database can be purchased through the online HCUP Central Distributor, and select statistics from the databases are available on HCUPnet.
+
+
+How are readmissions defined in the NRD?
+
+The NRD is designed to be flexible to various types of analyses of readmissions in the United States for all patients, regardless of the expected payer for the hospital stay. The NRD does not include any data elements that identify a readmission. Instead, the criteria to determine the relationship between multiple hospital admissions for an individual patient are left to the analyst using the NRD. The NRD can be used to estimate national readmission rates, reasons for returning to the hospital for care, and the hospital costs for discharges with and without readmissions.
+
+
+Can I conduct a multi-year analysis with the NRD?
+
+The NRD can be used for analyzing trends in readmissions over times for specific conditions or populations. However, we strongly recommend that users not combine data years with the NRD. Users should consider each year of the NRD as a separate sample. The patient linkage numbers (NRD_VisitLink) do not track the same patient across years of the NRD. Additionally, the hospital identifiers (HOSP_NRD) do not track the sample hospital across years of the NRD. Each year of the NRD should be considered a separate sample.
+
+
+Return to Contents
+ 
+State Databases
+What are the State databases?
+
+HCUP's State databases are a collection of hospital encounter-level information for all payers from participating States that can be used to investigate State-specific and multi-state trends in healthcare utilization, access, charges, quality, and outcomes. The HCUP State databases consist of the State Inpatient Databases (SID), the State Ambulatory Surgery and Services Databases (SASD), and the State Emergency Department Databases (SEDD).
+
+A summary table shows the availability of State-level data by database and year. Complete database availability and pricing information is provided in the online HCUP Central Distributor Database Catalog.
+
+Statistics from select States and settings are available on HCUPnet. Please review HCUPnet for a list of the available State statistics and years included in the query system on the State statistics pathways.
+
+
+Do I need to weight my State database data?
+
+HCUP's State databases do not need to be weighted. HCUP's State databases provide a census (not an estimate) of inpatient stays, ambulatory surgery and other outpatient service encounters, or emergency department encounters from each participating HCUP Partner. For additional information, please review the HCUP Methods Series Report #2010-05: Inferences With HCUP State Databases Final Report (PDF file, 215 KB).
+
+If a State is an HCUP Partner, why are its databases not available through the HCUP Central Distributor or on HCUPnet?
+
+HCUP Partners decide whether to distribute their State-level, public-release databases through the HCUP Central Distributor and whether to distribute statistics on HCUPnet. As a result, data from any given State may be available through one or both sources, and the years of participation can vary.
+
+A summary table shows State participation in the HCUP Central Distributor by database and year. Complete database availability and pricing information is provided in the online HCUP Central Distributor Database Catalog. HCUPnet provides a list of the available State statistics and years included in the query system on the State statistics pathways.
+
+If a State of interest does not release its full dataset through the HCUP Central Distributor or participate in HCUPnet, contact the HCUP Partner directly for information about the availability of that State's data.
+
+
+When are the State databases generally released?
+
+HCUP's State databases (SID, SASD, and SEDD) are released on a rolling basis—typically beginning 9 to 12 months following the end of a calendar year.
+
+A summary table shows the availability of State-level data by database and year. Complete database availability and pricing information is provided in the online HCUP Central Distributor Database Catalog. Join the HCUP Mailing List to receive information on new HCUP data, tools, and products. Recent releases are also noted on the HCUP-US homepage in the What's New section.
+
+
+What years of the State databases are available, and how much do they cost?
+
+The availability and cost of the State databases vary by State and year. The earliest available years for the State databases are 1990 for the SID, 1997 for the SASD, and 1999 for the SEDD; however, not all States provide all data types and from every year.
+
+Each HCUP Partner sets its own pricing, and some charge by applicant affiliation. A summary table shows the availability of State-level data by database and year. Complete database availability and pricing information is provided in the online HCUP Central Distributor Database Catalog.
+
+Additionally, statistics and data tables from select SID and SEDD are available on HCUPnet, HCUP's free, online query system.
+
+Many HCUP Partners participate in the HCUP Central Distributor and HCUPnet; however not all do. To obtain State-level data from a State that does not participate, contact the HCUP Partner directly for information on the availability of that State's data.
+
+
+Are readmission analyses possible with the State databases?
+
+Yes, readmission and revisit analyses are possible with the SID, SASD, and SEDD for those HCUP Partners that provide synthetic patient linkage numbers. AHRQ has created the HCUP Supplemental Variables for Revisit Analyses (i.e., revisit variables), which facilitate state-level analyses aimed at tracking patients across time and hospital settings exclusively in the SID, SASD, and/or SEDD, while adhering to strict privacy guidelines. The HCUP revisit variables are available starting in 2003, and only a subset of the HCUP State databases include the revisit variables. To determine which State databases include the revisit variables, refer to the User Guide for the Supplemental Variables for Revisit Analyses, Appendix A.
+
+
+Is there a resource that provides information on the types of hospitals and records found within the State databases?
+
+We recommend referring to the File Composition for the SID, SASD, and SEDD. The File Composition for the SID, SASD, and SEDD include State-specific information on the original data files provided by the HCUP Partner organizations for the development of the HCUP State databases. This includes information about the source of the original data files, the types of hospitals included in those files, the records excluded during HCUP processing, and other pertinent information to understand the composition of these files.
+
+
+Can State databases be used for county-level analyses?
+Yes, some State databases include information on the patientâs county of residence. Please note that the HCUP State databases include data for patients treated in hospital in the State. That means that patients residing in one State (e.g., Arizona) who are treated in a hospital in California will have the hospital encounter included in the HCUP State database for California.
+
+Return to Contents
+ 
+State Inpatient Databases (SID)
+What are the State Inpatient Databases (SID)?
+The SID are set of all-payer inpatient care databases from participating HCUP Partners that capture hospital inpatient stays in a given State. They contain the universe of inpatient discharge abstracts in participating States that are translated into a uniform format to facilitate multi-state comparisons and analyses. The SID contain a core set of clinical and nonclinical information on all patients, regardless of expected payer.
+
+Together, the SID encompass about 97 percent of all U.S. community hospital discharges.
+
+The SID are the building blocks of the NIS, the KID, the NRD, and emergency department (ED) admissions in the NEDS. All SID include a core set of variables that commonly are included on inpatient discharge abstracts, along with some State-specific data elements.
+
+Additional information on the SID, including a description of data elements with participation by State and year and summary statistics for select States, can be found on the SID Database Documentation page. Select SID can be purchased through the HCUP Central Distributor, and statistics from select States are available on HCUPnet.
+
+What is the difference between the SID and the NIS?
+The SID and the National Inpatient Sample (NIS) differ in design and availability of data elements. The SID contain the universe of the inpatient discharge abstracts in participating States. The NIS contains a sample of records from each SID that can be weighted to represent national and regional estimates. Additionally, the NIS contains fewer data elements than the SID. The common data elements in the SID become the NIS core data elements.
+
+Return to Contents
+ 
+State Ambulatory Surgery and Services Databases (SASD)
+What are the State Ambulatory Surgery and Services Databases (SASD)?
+The SASD include encounter-level data for ambulatory surgeries and also may include data on various types of outpatient services such as observation stays, lithotripsy, radiation therapy, imaging, chemotherapy, and labor and delivery. The specific types of ambulatory surgery and outpatient services included in each SASD vary by State and data year. All SASD include data from hospital-owned ambulatory surgery facilities. In addition, some States include data from facilities not owned by a hospital. The designation of a facility as hospital-owned is specific to its financial relationship with a hospital that provides inpatient care and is not related to its physical location. Hospital-owned ambulatory surgery and other outpatient care facilities may be contained within the hospital, physically attached to the hospital, or located in a different geographic area. The SASD contain a core set of clinical and nonclinical information on all patients, regardless of expected payer.
+
+Additional information on the SASD, including a description of data elements with participation by State and year and summary statistics for select States, can be found on the SASD Database Documentation page. Select SASD can be purchased through the HCUP Central Distributor.
+
+What types of facilities are included in the SASD?
+All SASD include data from hospital-owned ambulatory surgery facilities. In addition, some States include data from nonhospital-owned facilities. The designation of a facility as hospital-owned is specific to its financial relationship with a hospital that provides inpatient care is not related to its physical location. Hospital-owned ambulatory surgery and other outpatient care facilities may be contained within the hospital, physically attached to the hospital, or located in a different geographic area. The designation as hospital-owned means that HCUP can identify that the hospital is billing for this service. Refer to the Introduction to the SASD for a list of States that provide HCUP with information from hospital-owned facilities. A complete list of the types of facilities included in the SASD can be found on the SASD File Composition page.
+
+Return to Contents
+ 
+State Emergency Department Databases (SEDD)
+What are the State Emergency Department Databases (SEDD)?
+The SEDD are a set of all-payer emergency department (ED) databases from participating HCUP Partners that capture discharge information on all ED encounters that do not result in an admission to the same facility. They include a universe of abstracts from hospital-owned ED encounters from community hospitals. Composition and completeness of the variables in the file may vary from State to State. The SEDD contain a core set of clinical and nonclinical information on all patients, regardless of expected payer.
+
+Additional information on the SEDD, including a description of data elements with participation by State and year and summary statistics for select States, can be found on the SEDD Database Documentation page. Select SEDD can be purchased through the HCUP Central Distributor, and statistics from select States are available on HCUPnet.
+
+
+Do the SEDD include all ED encounters—both those in which the patient was admitted and those in which the patient was treated and released?
+No. The SEDD provide encounter-level information for ED encounters that do not result in an admission to the same facility (i.e., patients being evaluated before transfer to another acute care hospital, being discharged to their home or to rehabilitation/long-term care health facility, leaving against medical advice, or dying in the ED before admission). Records for inpatient stays in which the patient was admitted to the same hospital through the ED are found in the SID. These records can be identified by the data element HCUP_ED. Both the SEDD and SID are needed to analyze all ED encounters in a State.
+
+Return to Contents
+ 
+Obtaining HCUP Data
+How can I access data or statistics from HCUP?
+The HCUP databases are available for purchase online through the HCUP Central Distributor. All purchasers must complete the online HCUP Data Use Agreement (DUA) Training and create an HCUP Central Distributor user account in order to submit an application to purchase HCUP data. Please see HCUP Central Distributor FAQs for additional information.
+
+Statistics and data tables from HCUP's nationwide and select State databases can be obtained from HCUPnet, a free, online query system. Statistics and data tables on select topics are also available through HCUP Fast Stats.The HCUP Summary Trend Tables provide State-specific monthly trends in hospital utilization accessed through downloadable tables. The HCUP Visualization of Inpatient Trends in COVID-19 and Other Conditions displays State-specific monthly trends in inpatient stays related to COVID-19 and other conditions, and facilitates comparisons across patient/stay characteristics and States.
+
+HCUP is a voluntary partnership between the Federal government and State data organizations (HCUP Partners). Each Partner determines how its data are used in HCUP; thus, not all States participate in the HCUP Central Distributor, HCUPnet, Fast Stats, HCUP Summary Trend Tables, and/or HCUP Visualization of Inpatient Trends. https://hcup-us.ahrq.gov/partners.jsp
+
+Can I obtain a customized dataset or access additional elements that are not included in the standard HCUP databases? Can I get a sample/preview the databases?
+HCUP does not offer customized datasets—the data are offered as standard databases. No elements beyond those that already are included in the standard databases are available to the public. Due to restrictions regarding data confidentiality, HCUP is unable to provide a sample data set. We suggest reviewing data in HCUPnet, our free online query system, to explore topics of interest and become familiar with the content.
+
+Return to Contents
+ 
+HCUP Central Distributor FAQs
+General
+How do I access the website to purchase HCUP databases online?
+
+The HCUP Central Distributor Online Reporting System can be found at: https://cdors.ahrq.gov/.
+
+How do I contact the HCUP Central Distributor?
+Email the HCUP Central Distributor Team at HCUP-RequestData@ahrq.gov (include your order number in the subject line, if applicable). Responses may take 5-7 business days.
+
+Where can I learn more information about the HCUP Central Distributor?
+The HCUP Central Distributor User Guide provides detailed instructions on how to purchase, protect, re-use and share the HCUP data.
+
+Purchasing and Downloading HCUP Data
+What databases can I purchase?
+Nationwide and State databases available for purchase are listed on the HCUP-US website. HCUP Supplemental files including the American Hospital Association (AHA) linkage files, Cost-to-Charge Ratio files and Hospital Market Structure files are available free of charge. Please refer to the documentation for these files to determine if they are available for download through the HCUP-US website or the HCUP Central Distributor Online Reporting System.
+
+I am a student, are there any discounts to purchase data?
+Part-time and full-time students currently enrolled in a degree-seeking program are eligible for the published student prices on HCUP data purchased for the student's exclusive use. This includes high school, college, and graduate degree students, medical residents and postdoctoral trainees/fellows. Please see the HCUP Central Distributor User Guide for more details.
+
+What State databases have special requirements?
+
+Six states (California, Colorado, Georgia, Iowa, Minnesota, and Nebraska) have special requirements regarding the purchase of their data. Please see the HCUP Central Distributor HCUP Central Distributor User Guide for further details.
+
+How can I pay for databases purchased through the HCUP Central Distributor Online Reporting System?
+The online system accepts credit cards issued by US banks, ACH and direct payment methods (e.g., wire transfer, purchase order). Please see the HCUP Central Distributor User Guide for further details.
+
+My organization requires a W-9, how do I get one?
+
+Before our payment processing contractor (NORC) can provide a W-9 form for vendor set-up, you will need to create an order and receive an invoice during check-out in the HCUP Central Distributor Online Reporting System. Once the invoice is created, please send an email with the invoice attached to hcup@ahrq.gov to request a W-9 from NORC.
+
+Can I receive my data before payment is processed?
+No, databases will not be shipped or activated for download until payment is received and processed.
+
+How long will it take for me to receive my data?
+
+HCUP Nationwide databases are available via digital download through the HCUP Central Distributor Online Reporting System within one business day of processing payment. HCUP State databases are shipped on a DVD via United Parcel Service (UPS) within 5 business days after the application has met all requirements including processing of payment and, when required, the application has been approved by AHRQ. Please note, Credit card payments generally take 1-2 business days to process, while other direct payment methods can take up to 5 business days to process.
+
+How long do I have to download my HCUP Nationwide data once I receive the link?
+
+You have 3 attempts that can be made within 7 days from the time the link is activated. The download link will expire after the download is complete, or after three attempts or after 7 days, whichever happens first.
+
+I am having trouble downloading the data from the link that I received through the HCUP Central Distributor Online Reporting System. What should I do?
+
+To download the HCUP Nationwide databases, log in and access the Order-Download page using the 'Chrome' browser for downloading file. Please ensure that you have a stable and high-speed network while downloading. Do not refresh the page or lock the screen or work on other tasks during the downloading (indicated by a spinning circle), especially the main file.
+
+The length of time to download the Nationwide databases can vary. Download performance depends on several highly variable factors including the following:
+
+internet connection speed and bandwidth,
+global and regional internet traffic demand at the time of your download,
+other users' demand on your network or internet service provider (ISP) resources at the time of your download, and
+the size of the file to be downloaded (some files are ~2GB that take around 4 minutes to complete on a stable and fast internet).
+Please refer to the HCUP Central Distributor User Guide to troubleshoot the issue. If the information provided in the Guide does not help, please contact the HCUP Central Distributor Team at HCUP-RequestData@ahrq.gov.
+
+The files that I received do not unzip, what should I do?
+
+HCUP databases use a process that compresses and encrypts the files into a password-protected file (in either zip or exe format) which only can be extracted or unzipped using a third-party zip utility such as SecureZIP®, 7-zip, ZIP Reader, WinZip™, SecureZIP® for Mac , StuffIt Expander®, or Keka. Attempts to extract files using the built-in zip utilities in Windows® (Windows Explorer) or Mac (Archive Utility) will produce an error message warning of incorrect password and/or corrupted file or folder errors.
+
+To extract the zipped files, please follow these steps using 7-Zip (PC) or Keka (Mac):
+
+Right-click the compressed file (the outer layer, e.g., KID_YYYY).
+Open with "7-Zip" from the context menu.
+Choose "Extract to "outer layer/"".
+Enter the password for specific file.
+Then, extract the second layer using the same way as above.
+Please see the HCUP Central Distributor User Guide for further details. You may also refer to the HCUP Load and Check Tutorial for troubleshooting tips.
+
+I received my data, but I do not have it in a format I can use. How do I convert my ASCII file into another software?
+
+Statistical software such as SAS, SPSS or Stata is recommended for managing and analyzing the data. Programs that load the HCUP databases (in ASCII format) are available at no charge under Database Documentation – File Specifications and Load Programs on the HCUP User Support (HCUP-US) website as follows:
+
+NIS: https://hcup-us.ahrq.gov/db/nation/nis/nisdbdocumentation.jsp
+NRD: https://hcup-us.ahrq.gov/db/nation/nrd/nrddbdocumentation.jsp
+KID: https://hcup-us.ahrq.gov/db/nation/kid/kiddbdocumentation.jsp
+NEDS: https://hcup-us.ahrq.gov/db/nation/neds/nedsdbdocumentation.jsp
+NASS: https://hcup-us.ahrq.gov/db/nation/nass/nassdbdocumentation.jsp
+SID: https://hcup-us.ahrq.gov/db/state/siddbdocumentation.jsp
+SEDD: https://hcup-us.ahrq.gov/db/state/sedddbdocumentation.jsp
+SASD: https://hcup-us.ahrq.gov/db/state/sasddbdocumentation.jsp
+HCUP Data Training and Agreements
+What training is required to use HCUP databases?
+
+Complete the HCUP Data Use Agreement (DUA) training course. This training is required of all purchasers and all individuals with access to HCUP data and takes approximately 15 minutes to complete. Make note of your certification code and completion date for proof of training, which is required when placing an order for HCUP data or submitting HCUP Data Use Agreements.
+
+Do you accept modifications to the HCUP Data Use Agreements?
+
+HCUP does not accept modifications to the HCUP Data Use Agreement.
+
+HCUP Central Distributor Account
+I am a new user; how should I register for an account?
+
+Please register for a new account on the HCUP Central Distributor Online Reporting System. When registering, you will be asked not only your demographic information, but also your HCUP Data Use Agreement (DUA) Training certificate number and date. As mentioned at the site, the Username must adhere to these guidelines:
+
+6-30 characters
+Must only contain letters, numbers, and periods
+Must not contain more than 2 repeat periods
+I am an existing user; how do I access my account?
+
+The new HCUP Central Distributor Online Reporting System is accessed through https://cdors.ahrq.gov. In most cases, your Username is your email address. If your email is not your Username, please click on Forgot Password or Username, type in the email address you used previously in the Request a username recovery box, and you will receive an email with your Username. Once you have established your Username, you will need to reset your password. Please confirm and/or update your user information in the system.
+
+I am having trouble with my password and accessing my account on HCUP Central Distributor Online Reporting System. Where can I gethelp?
+Use (Forgot password or username?) if you forgot your username or password. If you still need help, please contact the HCUP Central Distributor Team at HCUP-RequestData@ahrq.gov, and one of the developers of the system will be able to assist.
+
+HCUP Central Distributor Applications
+Which HCUP Central Distributor applications are being accepted via email?
+The HCUP Central Distributor is accepting email applications (at HCUP-RequestData@ahrq.gov) for the following types of applications:
+
+State applications for California data for 2018+
+
+Additional Data Use Agreements for collaborators
+
+Data Re-Use Requests for State-level data
+
+Transfer of Custodianship of the data
+
+I am a student purchasing student-priced data for a student-led project, what information do I need to submit?
+
+Acceptable forms of proof of student status include documents that demonstrate current enrollment/appointment dates, institution, and student name (e.g., letter from professor advisor, registrar's office, or program director).
+
+Any sensitive personal information (e.g., student account number, SSN, birthdate, phone, etc.) must be masked or redacted prior to sending. The system has not been approved to take this kind of information.
+
+How long will it take for my HCUP State database purchase application to be reviewed?
+
+For HCUP State database purchase applications, reviews of Statements of Intended Use can take 1-2 weeks (or longer if revisions need to be made or if additional input from HCUP Partners is necessary).
+
+How long will it take for my HCUP State Re-Use Request to be reviewed?
+
+For HCUP State Re-Use Requests, reviews of the Statements of Intended Use can take 1-2 weeks (or longer if revisions need to be made or if additional input from HCUP Partners is necessary).
+
+How long will it take to process the non-purchaser HCUP Data Use Agreement applications?
+
+Non-purchaser DUAs are typically processed within 1 week of receipt.
+
+How long will it take to process the HCUP custody transfer applications?
+
+HCUP custody transfer applications can 1-2 weeks to process depending on the number of databases (and orders) being transferred.
+
+HCUP Software Tools
+What are the HCUP software tools?
+
+The HCUP software tools can be applied to HCUP and other administrative databases to create new data elements from existing data, thereby enhancing a researcher's ability to conduct analyses. The HCUP software tools are available for download from the HCUP-US website and are free of charge. Additional information is available in the Research Tools section of the HCUP-US website.
+
+
+How often are the HCUP software tools updated?
+The HCUP software tools are updated annually. For this reason, it is always advisable to use the most recent version of the tool.
+
+The HCUP software tools for ICD-9-CM are no longer updated. These tools should be used only for administrative data before October 2015.
+
+What is the Clinical Classifications Software Refined (CCSR) for ICD-10-CM/PCS?
+The CCSR is a diagnosis and procedure categorization scheme developed by AHRQ. It aggregates ICD-10-CM/PCS diagnosis and procedures codes into clinically meaningful categories.
+
+The CCSR for ICD-10-CM diagnoses groups diagnosis codes into more than 530 clinical categories. It balances the retention of the clinical concepts included in the CCS categories under ICD-9-CM and the specificity of ICD-10-CM diagnoses by creating new clinical categories. The CCSR for ICD-10-CM diagnoses is intended to be used analytically to examine patterns of healthcare in terms of cost, utilization, and outcomes; rank utilization by diagnoses; and risk-adjust by clinical condition.
+The CCSR for ICD-10-PCS procedures groups procedure codes into more than 320 clinical categories. It capitalizes on the taxonomy and specificity of the ICD-10-PCS coding scheme and, where possible, retains the same surgical concepts from prior CCS versions. The CCSR for ICD-10-PCS procedures is intended to be used analytically to examine patterns of healthcare in terms of cost, utilization, and outcomes, in addition to ranking utilization by procedures.
+The CCSR replaces the beta version of the CCS for ICD-10-CM/PCS. The beta version of the CCS for ICD-10-CM/PCS codes will not be updated for newer codes (ICD-10-CM codes after October 2019 and ICD-10-PCS codes after October 2020). It is recommended that the beta version of the tool no longer be used.
+
+
+
+The assignment of CCSR categories in the CCSR for ICD-10-CM diagnoses tool is not mutually exclusive. How do I account for this if my analysis is limited to reporting by the principal diagnosis (DX1)?
+For some applications, a mutually exclusive categorization scheme is needed, for example, performing rank utilization by the principal (or first-listed) diagnosis. To facilitate such analyses, the CCSR tool includes the assignment of a default CCSR category for the principal diagnosis in inpatient data and the first-listed diagnosis in outpatient data. Correct application would be dependent upon your dataset's setting of care. Additional information is available in the User Guide for the CCSR for ICD-10-CM diagnoses.
+
+I am having problems applying the CCSR for ICD-10-CM diagnoses to my administrative data. What could be the issue(s)?
+Please note the input dataset must contain certain elements that are coded in specific ways. These data elements are required for the assignment of the CCSR for ICD-10-CM categories:
+
+A unique record identifier (KEY in most HCUP databases)
+An array of ICD-10-CM diagnosis codes, decimals removed; user specifies the length of the array
+For an administrative database that includes a mixture of inpatient and outpatient records, there must be a data element with values that distinguishes between these records [this ensures the appropriate default CCSR is applied as in some cases, the assignment differs between the two data types].
+Additionally, the following are common mistakes that are made by users of the CCSR for ICD-10-CM diagnoses tool when applying to HCUP or other administrative databases:
+
+Data element names in the input data file do not match the data element names in the SAS program
+Diagnosis codes include decimals
+There is no indication that the input data file was specific to inpatient, outpatient or both inpatient and outpatient data in the SAS Mapping Program (this is a required macro).
+If you continue to encounter issues, we recommend consulting the User Guide for the CCSR for ICD-10-CM diagnoses as well as the HCUP Software Tools tutorial, both of which are helpful in identifying what information needs to be modified by the user in the tool's SAS Mapping program. If SAS is unavailable for use, we suggest using the SAS code as a guide for the necessary steps in other programming languages.
+
+What is the Elixhauser Comorbidity Software Refined for ICD-10-CM?
+The Elixhauser Comorbidity Software Refined for ICD-10-CM is a product developed by AHRQ that identifies different pre-existing conditions based on secondary diagnoses (i.e., comorbidities) listed on hospital administrative data. This tool creates 38 variables that identify comorbidities (e.g., heart failure, HIV) in hospital discharge records. In health services research, it is often important to control for comorbidities that co-exist at the time of the hospitalization or outpatient encounter, impact resource allocation (e.g., length of stay or charges), and possibly affect outcomes, such as in-hospital mortality.
+
+The Elixhauser Comorbidity Software was originally developed using ICD-9-CM diagnosis codes. The software was translated into ICD-10-CM prior to the availability of ICD-10-CM-coded data and released as a beta version. Once ICD-10-CM-coded data became available, the beta version of the Elixhauser Comorbidity Software was evaluated by clinical experts. The recommended modifications (implemented in v2021.1) transitioned the software tool out of its beta status and into the Elixhauser Comorbidity Software Refined for ICD-10-CM. It is recommended that the beta version of the tool no longer be used.
+
+Can the Elixhauser Comorbidity Software Refined for ICD-10-CM be applied to both inpatient and outpatient data? The ICD-9-CM version of this tool was only applicable to inpatient data.
+Yes, the Elixhauser Comorbidity Software Refined for ICD-10-CM can be applied to both inpatient and outpatient data, however, users should be mindful that the refinement process was focused on adult, nonmaternal inpatient stays.
+
+If the tool is being used with outpatient data, some measures like diabetes and obesity may be underreported because of ICD-10-CM coding guidelines for reporting secondary diagnoses on outpatient data, which state: "Secondary diagnoses should indicate additional conditions that affect patient care in terms of requiring clinical evaluation, therapeutic treatment, diagnostic procedures, extended length of stay, or increased nursing care and/or monitoring."2
+
+2 ICD-10-CM Official Guidelines for Coding and Reporting FY 2022 (https://www.cms.gov/files/document/fy-2022-icd-10-cm-coding-guidelines.pdf).
+
+I noticed that the Elixhauser Comorbidity Software Refined for ICD-10-CM is applied to all HCUP nationwide databases beginning data year 2019 except the KID. Why is that?
+As noted in the above FAQ, the refinement process for the Elixhauser Comorbidity Software Refined for ICD-10-CM focused on adult, nonmaternal inpatient stays. Additional work needs to be done to understand using the comorbidity measures for studying pediatric hospitalizations before it can be included on the KID. Some measures like dementia may not apply to the pediatric population and other comorbidities of possible interest (e.g., sickle-cell anemia) are not included.
+
+I am getting a value of 0 for all comorbidity measures in the output dataset. What could be wrong?
+Please note the input dataset must contain certain elements that are coded in specific ways. These data elements are required for the assignment of the comorbidity measures and are identified in the above FAQ.
+
+Additionally, the following are common mistakes that are made by users of the Elixhauser Comorbidity Software Refined for ICD-10-CM when applying to HCUP or other administrative databases:
+
+Data element names in the input data file do not match the data element names in the SAS Analysis Program
+Diagnosis codes include decimals
+Input data file only includes a principal diagnosis, no secondary diagnoses (comorbidity measures are only assigned to secondary diagnoses)
+Indicators that diagnoses are POA are not coded as expected by the SAS Mapping Program (e.g., "Y", "W", "N", "U").
+If you continue to encounter issues, we recommend consulting the User Guide for the Elixhauser Comorbidity Software Refined for ICD-10-CM as well as the HCUP Software Tools tutorial, both of which are helpful in identifying what information needs to be modified by the user in the tool's SAS Mapping program. If SAS is unavailable for use, we suggest that the SAS code be used as a guide for the necessary steps in other programming languages.
+
+What are the Elixhauser Comorbidity Indices Refined for ICD-10-CM?
+The Elixhauser Comorbidity Indices were originally developed using ICD-9-CM diagnosis codes and adult, nonmaternal inpatient discharge data.3 The development of the ICD-10-CM version of the indices was consistent with the methodology used for the ICD-9-CM version of the tool but used more recent 2018 data.
+
+The Elixhauser Comorbidity Indices Refined for ICD-10-CM is designed to predict two frequently reported health outcomes:
+
+Risk of in-hospital mortality
+Risk of 30-day, all-cause readmission
+Each index is a separate composite score based on the 38 individual comorbidity measures. Using the indices can be preferable to the individual measures because they account for interaction between comorbidities and reduce the necessary degrees of freedom required for estimation-especially helpful when working with small sample sizes.
+
+3 Moore BJ, White S, Washington R, Coenen N, Elixhauser A. Identifying Increased Risk of Readmission and In-hospital Mortality Using Hospital Administrative Data: The AHRQ Elixhauser Comorbidity Index. Med Care. 2017 Jul;55(7):698-705.
+
+Can I assign the indices to my administrative data if only a subset of the comorbidity measures is assigned? My administrative data do not include indicators that a diagnosis was POA, which is required for 18 of the comorbidity measures.
+The Elixhauser Comorbidity Indices Refined for ICD-10-CM depend on all 38 Elixhauser Comorbidity Software Refined for ICD-10-CM measures being coded in the data. Therefore, your data must include indicators that a diagnosis was present on admission (POA).
+
+How do I interpret the comorbidity measures with a negative weight? What about a weight of 0?
+The comorbidity measures are assigned a weight designed to capture the relative risk of in-hospital mortality or a 30-day all-cause readmission of each comorbidity in relation to the other comorbidity measures. For example, a comorbidity with a weight of 5 has five times the weight of a comorbidity with a weight of 1. Some comorbidity weights carry a negative sign, reflecting a protective relationship with in-hospital mortality or readmissions in the context of the other comorbidities. A weight of zero indicates that the comorbidity measure does not significantly contribute positively or negatively to the risk of in-hospital mortality or 30-day all-cause readmission. It is included in the calculation of the index for completeness.
+
+What is the Chronic Condition Indicator Refined (CCIR) for ICD-10-CM?
+The CCIR for ICD-10-CM is a tool developed by the AHRQ that facilitates health services research by allowing the researcher to readily identify a diagnosis as indicating a chronic condition. The CCIR tool identifies three types of conditions:
+
+Chronic: Examples include malignant cancer, diabetes, obesity and hypertension
+Not Chronic: Examples include benign neoplasm, postprocedural complications, pregnancy, and an initial encounter for an injury
+Codes where no determination was made on the identification of a chronic condition: Examples include external cause of morbidity codes and codes for factors influencing health status and contact with health services.
+The CCIR for ICD-10-CM replaces the beta version of the CCI for ICD-10-CM. It is recommended that the beta version of the tool no longer be used.
+
+What is the definition of a chronic condition in the CCIR for ICD-10-CM tool?
+The definition of a chronic condition is dependent on duration (a condition lasting 12 months of longer) and its effect on the patient based one or both of the following criteria:
+
+The condition results in the need for ongoing intervention with medical products, treatment, services, and special equipment
+The condition places limitations on self-care, independent living, and social interactions.4
+A diagnosis code that describes a chronic condition fitting the above definition is considered chronic, even if the code description includes information on an acute exacerbation. For example, the codes for Sickle-cell disease without crisis and Sickle-cell disease with acute chest syndrome are both considered chronic.
+
+Consistent with the ICD-9-CM version, any diagnosis that indicates an amputation, a transplant, or a malignant cancer is considered a chronic condition. Most congenital codes are chronic.
+
+4 Perrin EC, Newacheck P, Pless IB, Drotar D, Gortmaker SL, Leventhal J, Perrin JM, Stein RE, Walker DK, Weitzman M. Issues involved in the definition and classification of chronic health conditions. Pediatrics. 1993 Apr;91(4):787-93.
+
+Does the CCIR for ICD-10-CM value, Not Chronic, indicate an acute condition?
+The designation of not chronic is not synonymous with acute. For example, diagnoses indicating pregnancy, or a benign neoplasm are not chronic, but also not an acute condition requiring immediate short-term treatment.
+
+How should the CCIR for ICD-10-CM be used for an analysis that counts chronic conditions?
+The CCIR for ICD-10-CM tool assigns a value to every diagnosis code and identifies any diagnosis on a record that is chronic. In some cases, more than one diagnosis code on a record may indicate the same chronic condition. In fact, ICD-10-CM coding guidelines require that two diagnosis codes be reported for certain conditions. For example, the record for a patient with hypertensive chronic kidney disease will contain the hypertensive chronic kidney disease code and a code indicating the stage of chronic kidney disease. Both codes will have a CCIR value of chronic. But this does not mean that the patient has two distinct chronic conditions.
+
+To address this, the recommendation is to use the CCIR tool in combination with the CCSR for ICD-10-CM diagnoses. It is possible to use the CCSR diagnosis categories to help identify when multiple diagnoses indicate a similar chronic condition.
+
+What is the Procedure Classes Refined for ICD-10-PCS?
+The Procedure Classes Refined for ICD-10-PCS facilitates health services research by allowing the researcher to readily determine (1) whether a procedure is diagnostic or therapeutic and (2) whether a procedure is expected to be performed in an operating room. The Procedure Classes Refined for ICD-10-PCS assign all ICD-10-PCS procedure codes to one of four categories:
+
+Minor Diagnostic: Nonoperating room procedures that are diagnostic (e.g., B244ZZZ, Ultrasonography of Right Heart)
+Minor Therapeutic: Nonoperating room procedures that are therapeutic (e.g., 02HQ33Z, Insertion of Infusion Device into Right Pulmonary Artery, Percutaneous Approach)
+Major Diagnostic: Procedures that are considered operating room procedures that are performed for diagnostic reasons (e.g., 02BV0ZX, Excision of Superior Vena Cava, Open Approach, Diagnostic)
+Major Therapeutic: Procedures that are considered operating room procedures that are performed for therapeutic reasons (e.g., 0210093, Bypass Coronary Artery, One Site from Coronary Artery with Autologous Venous Tissue, Open Approach).
+The Procedure Classes Refined for ICD-10-PCS replaces the beta version of the tool. The beta version of the Procedure Classes will not be updated for newer codes and it is recommended that it no longer be used.
+
+What is the Clinical Classifications Software (CCS) for Services and Procedures?
+The CCS for Services and Procedures provides a method for classifying CPT and HCPCS Level II codes into more than 240 clinically meaningful procedure categories. The procedure categories are similar to the Clinical Classifications Software (CCS) for ICD-9-CM procedure classification with the addition of specific categories unique to the professional service and supply codes in CPT and HCPCS Level II codes.
+
+Will the CCS-Services and Procedures be updated to align with the new CCSR for ICD-10-CM diagnoses categories?
+While we understand that there is a need for this, especially for analyses that examine procedure trends within the inpatient and outpatient settings, we do not yet have a plan to update the CCS-Services and Procedures categories to align with the CCSR for ICD-10-CM diagnoses.
+
+What is the Surgery Flags Software for Services and Procedures?
+The Surgery Flags Software for Services and Procedures identifies a subset of CPT codes as surgical procedures:
+
+CPT Category I, Surgery procedures
+CPT Category I, Radiology procedures (added in v2019.2)
+CPT Category I, Medicine services and procedures (added in v2019.2), excluding the evaluation and management codes
+CPT Category III Codes, Temporary codes for emerging or experimental services, technology, or procedures (added v2018)
+Excluded are all other ranges of CPT Category I codes (i.e., codes specific to anesthesia, pathology and laboratory procedures, evaluation and management services, laboratory analyses, multianalyte assay), any CPT Category II codes, and all HCPCS Level II codes.
+
+CPT codes in the specified ranges are classified as one of three categories:
+
+A narrowly defined surgery (Narrow) that is usually a major therapeutic procedure
+A more broadly defined surgery (Broad) that includes major diagnostic and invasive minor therapeutic procedures
+Neither a narrowly nor broadly defined surgery (Neither)
+Are the CCS- and Surgery Flags-Services and Procedures tools valid for all calendar years?
+Beginning with the v2020.1 release of the CCS-Services and Procedures and Surgery Flags-Services and Procedures, the tools are based on CPT and HCPCS Level II codes valid as of the calendar year.
+
+For users interested in applying the CCS-Services and Procedures and Surgery Flags-Services and Procedures to CPT and HCPCS Level II codes valid before January 1, 2020, older versions are archived for download on the HCUP-US website at www.hcup-us.ahrq.gov/toolssoftware/ccs_svcsproc/ccssvcproc.jsp and www.hcup-us.ahrq.gov/toolssoftware/surgeryflags_svcproc/surgeryflagssvc_proc.jsp respectively.
+
+Is a reference file available for the CCS-and Surgery Flags-Services and Procedures tools that lists the CPT or HCPCS Level II codes mapped into respective CCS categories or surgery flag values?
+While a reference file is available for both tools, HCUP does not provide lists of individual CPT or HCPCS Level II codes for either of these tools. The CCS-Services and Procedures category and surgery flag mappings are provided as code ranges that can be recognized by a statistical package like SAS or SPSS. Descriptions of the code ranges are not provided. Our license agreement with the AMA for using CPT codes also does not allow us to distribute individual codes. To obtain individual codes, it may be necessary to license the CPT codes and obtain a CPT Codebook from the AMA Exit Disclaimer or work with a medical records coder to develop a list.
+
+What are the HCUP software tools for ICD-9-CM?
+The HCUP software tools for ICD-9-CM include the following:
+
+Clinical Classifications Software (CCS) for ICD-9-CM
+Groups diagnosis and procedure codes into clinically meaningful categories
+Chronic Condition Indicator (CCI) for ICD-9-CM
+Identifies diagnoses as chronic conditions
+Elixhauser Comorbidity Software for ICD-9-CM
+Identifies secondary diagnoses as comorbidities
+Utilization Flags for ICD-9-CM
+Identifies specific hospital services based on procedures and revenue center codes
+Procedure Classes for ICD-9-CM
+Identifies major, minor, diagnostic, and therapeutic procedures
+Surgery Flags for ICD-9-CM
+Identifies codes as narrowly defined therapeutic invasive surgeries or more broadly defined surgeries that include diagnostic invasive procedures
+Return to Contents
+ 
+HCUP Supplemental Files
+What are the HCUP Supplemental Files?
+The HCUP Supplemental Files are available for use with the HCUP databases to enhance a researcher's ability to conduct analyses. These files are not applicable to other administrative databases. Most of these files are available for download from the HCUP-US website. Others may be ordered through the online HCUP Central Distributor. All are available free of charge.
+
+What are the American Hospital Association (AHA) Linkage Files?
+The HCUP AHA Linkage Files are used to supplement the HCUP SID, SASD, and SEDD with hospital-level information from the AHA Annual Survey Databases. The AHA Annual Survey Databases are not available through HCUP and must be purchased separately from the AHA Exit Disclaimer. The HCUP AHA Linkage Files include the hospital identifier used on the AHA Annual Survey Databases and the HCUP hospital identifier for those HCUP Partner States that release hospital identifiers.
+
+The HCUP AHA Linkage Files for most states that release hospital identifiers are available to download from HCUP-US for the HCUP Central Distributor SID, SASD, and SEDD beginning with 2006 data. The AHA Linkage Files are updated annually. The HCUP AHA Linkage Files prior to 2006 were included on the data CD-ROMs provided with purchase. Please note that not all HCUP Partner States release hospital identifiers.
+
+How do I link the HCUP AHA Linkage Files with the HCUP SID, SASD, and SEDD?
+The HCUP AHA Linkage Files can be linked to the HCUP SID, SASD, and SEDD Core Files using the HCUP data source hospital identification number (data element DSHOSPID). Then, subsequently, users can merge the data elements of interest from the AHA Annual Survey Databases to the HCUP AHA Linkage Files using the AHA hospital identifier (data element AHAID).
+
+I recently received the Iowa, Minnesota, and Nebraska AHA Linkage Files through special request from the HCUP Central Distributor. How do I link the AHA Linkage Files for these three States to the corresponding SID, SASD, and SEDD?
+The Iowa, Minnesota, and Nebraska AHA Linkage Files are provided by special request to certain approved purchasers whose use of the data is consistent with the Partner organization's requirements. These special request files are discharge-level files rather than hospital-level files. There is one record in these AHA Linkage Files for every record in the State database. For these three States, the AHA Linkage Files can be linked directly to the SID, SASD, and SEDD Core Files using the HCUP record identifier (data element KEY).
+
+What are the Cost-to-Charge Ratio Files (CCR) Files?
+The CCR Files are linkable files developed by AHRQ that enable the conversion of total charges (defined as the amount a hospital billed for services) into how much the hospital services actually cost. Cost information was obtained from the hospital accounting reports in the Healthcare Cost Report Information System (HCRIS) files collected by the Centers for Medicare & Medicaid Services (CMS). Some imputations for missing values were necessary. The CCR Files are hospital-level files designed to supplement the data elements in HCUP inpatient and emergency department databases.
+
+Each CCR File contains hospital-specific cost-to-charge ratios based on all-payer inpatient or emergency department cost for nearly every hospital in the corresponding database (NIS, KID, NRD, NEDS, SID, and SEDD). The CCR Files for inpatient data are updated annually for the NIS, NRD, and SID and every 3 years for the KID (beginning with 2001 data). The CCR files for emergency department data are updated annually for the NEDS and SEDD (beginning with 2012 data).
+
+How do I link the CCR Files to the HCUP databases?
+
+The CCR Files can be linked to records in the HCUP databases using the HCUP hospital identification number, which is a unique hospital number exclusive to the HCUP data. The name of the data element representing the hospital identification number varies by database and data year.
+
+For nationwide database CCR Files (CCR-NIS, CCR-KID, CCR-NRD, and CCR-NEDS), the CCR records can be merged directly with the records in the corresponding database using the database's hospital identification number (HOSP_NIS, HOSP_KID, HOSP_NRD, and HOSP_ED, respectively).
+
+For States that release an HCUP AHA Linkage File, linkage between the CCR File and the SID or SEDD is achieved in two steps. First by linking records from the CCR for SID or SEDD file to the HCUP AHA Linkage File by the data element HOSPID. For Iowa, Minnesota, and Nebraska, this linkage is achieved using the data element KEY. Second, by linking the resulting file to the SID or SEDD by State (data element Z013) and data element DSHOSPID.
+
+For States that do not release an HCUP AHA Linkage File, HOSPID is included directly on their SID or SEDD file. For these States, the data elements from the CCR File can be merged onto the SID or SEDD by HOSPID.
+
+
+What are the Supplemental Variables for Revisit Analyses?
+The HCUP Supplemental Variables for Revisit Analyses, or revisit variables, are additional variables that were developed by AHRQ. They facilitate analyses to track patients across time and hospital settings exclusively in the SID, SASD, and SEDD while adhering to strict privacy guidelines.
+
+There are two HCUP supplemental variables
+Synthetic person-level identifiers that have been verified against the patient's date of birth and sex and examined for completeness (HCUP variable VisitLink).
+A timing variable that can be used to determine the days between hospital events for an individual without the use of actual dates (HCUP variable DaysToEvent).
+Beginning with 2009 data, the Revisit Variables are included in the Core file of the SID, SASD, and SEDD databases for select States purchased through the HCUP Central Distributor. For 2003-2008 data, the Revisit Variables are provided free of charge as a separate file with the applicable state databases.
+
+Which States, databases, and years have Revisit Variables?
+Appendix A of the HCUP Supplemental Variables for Revisit Analyses User Guide provides a detailed list of which States, years, and types of data are available.
+
+How do I determine if I can follow patients over time in a State?
+
+It is possible that over time, some HCUP Partners will modify the encryption routines used for their synthetic patient linkage numbers. If this occurs, there will be a one-time disruption in the ability to track a patient over time. For more information, review Appendix C of the HCUP Supplemental Variables for Revisit Analyses User Guide to determine the consistency of VisitLink over time.
+
+
+How do I determine if I can follow patients across settings of care in a State?
+
+For more information, review Appendix D of the HCUP Supplemental Variables for Revisit Analyses User Guide to determine the consistency of VisitLink between the SID and SASD/SEDD within a data year.
+
+
+Return to Contents
+ 
+Aggregate Statistics from HCUPnet
+What is HCUPnet?
+HCUPnet is a free, online query system that provides statistics and data tables based on HCUP data. Its easy, step-by-step process allows users to explore many healthcare topics relating to hospital inpatient services and emergency department settings. Users also may generate tables and graphs on national and regional statistics including hospital readmissions and trends on hospital and emergency department use in the United States. In addition, State-specific statistics, including information at the county-level, are available for States that have agreed to participate in HCUPnet.
+
+HCUPnet can access statistics from all HCUP databases: the NIS, the KID, the NRD, the NEDS, selected SID and selected SEDD.
+
+Information in HCUPnet includes:
+
+Diagnosis and procedure classifications (e.g., diagnosis-related groups [MS-DRGs], CCSR categories, major diagnostic categories [MDCs])
+Patient demographic characteristics
+Hospital characteristics
+Expected payer
+Discharge status
+Length of stay
+
+Additional information provided by HCUPnet includes the following:
+
+In-hospital mortality for diagnosis and procedure classifications
+Trends in inpatient and outpatient access, charges, and outcomes
+Utilization by special populations
+Most common conditions and procedures
+Variations in medical practice
+Quality of care and patient safety
+Differences in outcomes between hospital type
+National estimates of hospital readmissions
+Online z-test calculator to test statistical significance of differences between two weighted counts, means, or percentages
+Validation of results obtained from the HCUP databases
+How is HCUPnet different from the full HCUP databases?
+HCUPnet produces output by accessing precalculated statistics, tables and graphs of HCUP data to produce quick results. For this reason, and to protect patient confidentiality, not all types of queries are possible using HCUPnet. The full HCUP databases are purchased through the HCUP Central Distributor and require a statistical software package (such as SAS, SPSS, or Stata) for use. Researchers can program the software to extract the type of information they are seeking from the databases.
+
+HCUP Partners decide whether to release their State-level, public-release data through the HCUP Central Distributor and whether to have State-level statistics on HCUPnet. As a result, data from any given State may be available through one or both sources, and the years of participation can vary. Please review HCUPnet for a list of the available State statistics and years included in the query system on the State statistics pathways. For the Central Distributor, a summary table shows State participation by database and year. Complete database availability and pricing information is provided in the Database Catalog, which is found by navigating to the online HCUP Central Distributor.
+
+Is the national data on HCUPnet weighted?
+Yes, HCUPnet statistics based on the NIS, KID, NRD, and NEDS have had the weighting applied and are national estimates.
+
+How often is HCUPnet updated?
+HCUPnet is updated as databases are released. The national statistics are updated annually, and State statistics are updated as new State data are processed. Available States and years are listed on the HCUPnet pathways.
+
+HCUPnet provides national readmission statistics. Is this information available in a full nationwide database?
+Yes. Statistics on national readmission rates are available on HCUPnet or can be generated using the NRD. The NRD can be purchased through the HCUP Central Distributor.
+
+How does HCUPnet work?
+HCUPnet is based on aggregate statistics tables to speed up data transfer and protect individual records, so not all possible queries can be addressed. HCUPnet is designed to walk the user through each step of building a query.
+
+Return to Contents
+ 
+Additional HCUP Resources
+What additional resources are available on the HCUP-US website?
+
+HCUP produces a number of publication series featuring HCUP data and tools. These publications and reports provide people with ready-made sources of statistics and guidance on a range of healthcare related subjects. Examples include the following:
+
+HCUP Statistical Briefs, which present simple, descriptive reports on a variety of specific, healthcare related issues
+HCUP Methods Series Reports, which feature a broad array of methodological information on the HCUP databases and software tools
+HCUP Topical Reports, which provide information on various priority populations
+HCUP Infographics, which provide a visual representation of HCUP Statistical Briefs and other data
+HCUP Findings-At-A-Glance provides snapshots covering a broad range of health policy issues related to hospital use and costs.
+
+Additionally, the HCUP-US website has an HCUP Publications Search feature, which allows visitors to search keywords for peer-reviewed articles and AHRQ reports that used HCUP data or products to support their research. The HCUP-US website showcases high-quality examples of articles in its Research Spotlights feature.
+
+The HCUP-US website also offers readily available statistics in the form of downloadable tables/figures or interactive data visualizations. Examples include the following:
+
+HCUP Summary Trend Tables, which provide downloadable tables containing State-specific monthly trends in hospital utilization derived from the HCUP SID and SEDD
+HCUP Fast Stats, which is an online query tool that uses visual displays to compare national or State statistics on a range of healthcare topics
+HCUP Diagnosis and Procedure Frequency Tables, which provide frequencies of ICD-9-CM and ICD-10-CM/PCS codes (individually and by clinical categories) for the HCUP Nationwide databases (NIS, KID, NASS, NEDS, NRD)
+HCUP Visualization of Inpatient Trends in COVID-19 and Other Conditions, which displays State-specific monthly trends in inpatient stays related to COVID-19 and other conditions.
+Return to Contents
+ 
+Online Tutorials
+What is the HCUP Online Tutorial Series?
+
+The HCUP Online Tutorial Series is a set of free, interactive courses designed to provide data users with information about HCUP data and tools, as well as training on technical methods for conducting research with HCUP data.
+
+
+What topics are available?
+
+Topics in the Online Tutorial Series include the following:
+
+HCUP Overview Course: provides a wealth of information about HCUP data, software tools, and products.
+Load and Check HCUP Data Tutorial: provides instructions on how to unzip (decompress) HCUP data, save it on the computer, and load the data into a standard statistical software package.
+Calculating Standard Errors Tutorial: shows users how to accurately determine the precision of the estimates produced from the HCUP nationwide databases.
+Nationwide Readmissions Database (NRD) Tutorial: introduces users to the sampling design, key data elements of the NRD and steps through an example of producing national readmission rates for a specific condition.
+HCUP Sample Design Tutorial: explains the sampling strategy of the National (Nationwide) Inpatient Sample (NIS), Kids' Inpatient Database (KID), and Nationwide Emergency Department Sample (NEDS) nationwide databases.
+Producing National HCUP Estimates Tutorial: demonstrates how the NIS, KID, and NEDS can be used to produce national and regional estimates.
+Multi-year Analysis Tutorial: presents solutions that may be necessary when conducting analyses that span multiple years.
+HCUP Software Tools Tutorial: introduces users to the HCUP Software tools, which can be applied to HCUP and other administrative databases to create new data elements from existing data, thereby enhancing a researcher's ability to conduct analyses. There are four modules in this course that group the HCUP tools by the following coding systems: ICD-10-CM diagnoses, ICD-10-PCS procedures, CPT and HCPCS Level II codes, and ICD-9-CM diagnoses and procedures.
+Return to Contents
+ 
+About HCUP User Support
+What types of questions can HCUP User Support answer?
+
+HCUP User Support can help (1) find, select, and access the appropriate HCUP databases, tools, and documentation; (2) navigate and use the HCUP-US; (3) troubleshoot issues with HCUP tools; (4) investigate possible data or documentation errors; and (5) guide you in the appropriate use and reporting of HCUP data.
+
+If you have questions concerning current HCUP database orders and invoices, downloading HCUP nationwide databases, unzipping HCUP State or nationwide database products, or submitting required HCUP DUAs, training certificate codes, or data re-use requests, please contact the HCUP Central Distributor.
+
+
+Are there types of questions that HCUP User Support cannot answer?
+
+HCUP User Support cannot answer questions related to programming software services or support, data coding, complex analyses, or research design. Staff may be able to guide you to other resources that are specific to your needs.
+
+
+Can HCUP User Support assist with my study design and methodology?
+
+HCUP User Support cannot assist with HCUP research designs. However, many users have found HCUP's Publications Search page and the HCUP Methods Series Reports helpful in learning how other researchers have constructed their methodology.
+
+
+Are there requirements for publishing with HCUP data?
+
+Yes. Before publishing with HCUP data, HCUP User Support recommends reviewing the Requirements for Publishing With HCUP Data page.
