@@ -16,7 +16,7 @@ META_FILE  = "metadata.pkl"
 SIM_THRESHOLD = 0.5      # tweak via evaluation
 TOP_K = 5  # number of FAQ chunks to feed the LLM
 
-app = FastAPI(title="HCUP‑FAQ Bot (prototype)")
+app = FastAPI(title="HCUP‑FAQ Bot (POC)")
 
 class AskReq(BaseModel):
     query: str
