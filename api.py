@@ -16,6 +16,11 @@ META_FILE  = "metadata.pkl"
 SIM_THRESHOLD = 0.5      # tweak via evaluation
 TOP_K = 5  # number of FAQ chunks to feed the LLM
 
+# ---- default system prompt for fallback answers ----
+SYSTEM_PROMPT_FILE = "system_prompt.txt"  # plain‑text summary of CDORS/HCUP site
+with open(SYSTEM_PROMPT_FILE, "r", encoding="utf-8") as fp:
+    SYSTEM_PROMPT = fp.read().strip()
+
 app = FastAPI(title="HCUP‑FAQ Bot (POC)")
 
 class AskReq(BaseModel):
@@ -41,27 +46,22 @@ def ask(req: AskReq):
         if float(D[0][j]) >= SIM_THRESHOLD
     ]
 
-    # No sufficiently similar FAQ → politely refuse
-    if not scored:
-        return {
-            "answer": None,
-            "similarities": [],
-            "message": "I’m sorry, I don’t have that information.",
-        }
-
-    # Build context snippets for Gemini
-    contexts = [
-        f"FAQ ID: {metadata[idx]['id']}\nQ: {metadata[idx]['question']}\nA: {metadata[idx]['answer']}"
-        for _, idx in scored
-    ]
+    if scored:
+        # Build context snippets from retrieved FAQs
+        contexts = [
+            f"FAQ ID: {metadata[idx]['id']}\nQ: {metadata[idx]['question']}\nA: {metadata[idx]['answer']}"
+            for _, idx in scored
+        ]
+    else:
+        # No similar entries – fall back on the generic system prompt
+        contexts = [SYSTEM_PROMPT]
 
     # Call Gemini via llm.answer_with_context()
     answer_text = answer_with_context(req.query, contexts)
 
     return {
         "answer": answer_text,
-        #"sources": [metadata[idx]['url'] for _, idx in scored],
-        #"similarities": [sim for sim, _ in scored],
+        "similarities": [sim for sim, _ in scored],
     }
 
 if __name__ == "__main__":

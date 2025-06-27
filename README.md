@@ -55,7 +55,7 @@ export GOOGLE_API_KEY="<YOUR_TOKEN>"           # or GEMINI_API_KEY
 uvicorn api:app --reload
 
 # 5. Open the UI
-open http://localhost:8000
+open http://localhost:8000/docs
 ```
 
 ### Using Docker

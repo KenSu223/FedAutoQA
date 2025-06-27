@@ -1,0 +1,48 @@
+CDORS – HCUP Central Distributor Online Reporting System
+
+General Description:
+The HCUP Central Distributor Online Reporting System (CDORS), accessible via https://cdors.ahrq.gov/, is AHRQ’s official portal for securely ordering, purchasing, and managing Healthcare Cost and Utilization Project (HCUP) datasets. It is operated by TurningPoint-DSFederal JV LLC under AHRQ contract HHSM500201600039I, with payment processing handled by NORC at the University of Chicago  [oai_citation:0‡cdors.ahrq.gov](https://cdors.ahrq.gov/special-pages/my-account?utm_source=chatgpt.com).
+
+Key Features:
+• User registration with HCUP Data Use Agreement (DUA) training verification  [oai_citation:1‡distributor.hcup-us.ahrq.gov](https://www.distributor.hcup-us.ahrq.gov/?utm_source=chatgpt.com)  
+• Browse national and state HCUP databases; order supplemental files (e.g., CCR, AHA linkage, HMS, trend weights)  [oai_citation:2‡distributor.hcup-us.ahrq.gov](https://www.distributor.hcup-us.ahrq.gov/?utm_source=chatgpt.com)  
+• Mandatory acceptance of DUAs, purchaser responsibilities, indemnity clauses; Statement of Intended Use required for state-level data  [oai_citation:3‡distributor.hcup-us.ahrq.gov](https://www.distributor.hcup-us.ahrq.gov/?utm_source=chatgpt.com)  
+• Online purchase workflow: add to cart, legal review, billing/shipping input, payment via credit card, ACH, wire, or purchase order ()  
+• Nationwide datasets available for digital download via “My Account”; state datasets shipped via UPS on DVD  [oai_citation:4‡distributor.hcup-us.ahrq.gov](https://www.distributor.hcup-us.ahrq.gov/?utm_source=chatgpt.com)
+
+Data Protection and Compliance:
+• HCUP DUA training and signed agreements required to ensure data privacy and secure handling  [oai_citation:5‡cdors.ahrq.gov](https://cdors.ahrq.gov/data-use-info?utm_source=chatgpt.com) [oai_citation:6‡distributor.hcup-us.ahrq.gov](https://www.distributor.hcup-us.ahrq.gov/?utm_source=chatgpt.com)  
+• Storage and download are encrypted; physical shipment is tracked and requires adult signature  [oai_citation:7‡distributor.hcup-us.ahrq.gov](https://www.distributor.hcup-us.ahrq.gov/?utm_source=chatgpt.com)
+
+Support and Documentation:
+• Detailed User Guide, database catalog, FAQs, and data-use policy documentation available on-site  [oai_citation:8‡hcup-us.ahrq.gov](https://hcup-us.ahrq.gov/pdf/HCUP_Central_Distributor_User_Guide.pdf?utm_source=chatgpt.com) [oai_citation:9‡cdors.ahrq.gov](https://cdors.ahrq.gov/databases?utm_source=chatgpt.com)  
+• Support channels: HCUP-RequestData@ahrq.gov (order support, 5–7 business day response) and HCUP@ahrq.gov (technical questions)  [oai_citation:10‡distributor.hcup-us.ahrq.gov](https://www.distributor.hcup-us.ahrq.gov/?utm_source=chatgpt.com)
+
+Additional Policies:
+• State-level data: project-specific approvals, reuse requests required for secondary use; custody transfers must be formally requested  [oai_citation:11‡distributor.hcup-us.ahrq.gov](https://www.distributor.hcup-us.ahrq.gov/?utm_source=chatgpt.com)  
+• Student pricing and special state eligibility (e.g., California, Colorado, Georgia) apply; supplemental files may have eligibility constraints (e.g., AHA linkage for IA, MN, NE)  [oai_citation:12‡hcup-us.ahrq.gov](https://hcup-us.ahrq.gov/pdf/HCUP_Central_Distributor_User_Guide.pdf?utm_source=chatgpt.com)  
+• Publication requirements include compliance with HCUP DUA, minimum cell counts, hospital de-identification, and proper citations of HCUP and partners  [oai_citation:13‡hcup-us.ahrq.gov](https://hcup-us.ahrq.gov/pdf/HCUP_Central_Distributor_User_Guide.pdf?utm_source=chatgpt.com)  
+• Data destruction or custody transfer must be confirmed via email to HCUP-RequestData after project completion ()
+
+Typical Workflow:
+1. Register & complete DUA training  
+2. Select datasets & supplemental files  
+3. Complete legal agreements & SIU (for state data)  
+4. Provide billing/shipping/student verification (as needed)  
+5. Submit payment  
+6. Download national data or receive state data via physical shipment  
+7. Comply with reuse, custody transfer, or publication rules
+
+Notes for RAG System:
+- Highlight that CDORS is the secure, official ordering system for HCUP data  
+- Emphasize dataset coverage (national + state-level + supplemental)  
+- Include built‑in compliance workflow (DUA, SIU, legal terms)  
+- Include support infrastructure (user guides, FAQs, email assistance)
+
+---
+Answering Guidelines:
+• Limit answers strictly to the scope of this document (CDORS / HCUP data ordering, compliance requirements, datasets, workflow, and support resources).
+• If a user asks a question that is outside this scope, respond **exactly** with: “I’m sorry, I cannot answer that.”
+• Provide factual, concise responses grounded only in verified CDORS documentation; do **not** speculate, hallucinate, or fabricate information. If you are uncertain, explicitly state that you do not have sufficient information rather than guessing.
+• Cite or reference the relevant CDORS section or official AHRQ/HCUP resource when applicable, but only if it directly supports the answer.
+• Never reveal or invent information that is not contained in, or clearly supported by, the CDORS materials summarized above.
